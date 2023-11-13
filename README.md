@@ -61,7 +61,7 @@ void getEmployeeData(int empID[], int hours[], double payRate[], int Numemp)
 		while (payRate[i] < 15.00)//Validate input
 		{
 			cout << "Nobody makes less than $15.00!!\n"
-				<< "Enter pay rate for Employee # " << empID[i] << ": $";
+				<< "Enter pay rate for Employee # " << empID[i] << "$";
 			cin >> payRate[i];
 		}
 		cout << "\n";
